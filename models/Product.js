@@ -15,7 +15,7 @@ const ProductSchema = new mongoose.Schema({
 
   price:{type:Number, required:true},
 }, {
-  timestamp: true,
+  timestamps: true,
 });
 
 module.exports = mongoose.model("Product", ProductSchema);
