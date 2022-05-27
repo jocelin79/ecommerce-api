@@ -7,7 +7,7 @@ router.post("/payment", (req, res) => {
     amount:req.body.amount,
     currency:"usd"
   }, (stripeErr, stripeRes) => {
-    if(stirpeErr){
+    if(stripeErr){
       res.status(500).json(stripeErr);
     }else{
       res.status(200).json(stripeRes)

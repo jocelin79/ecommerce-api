@@ -32,7 +32,7 @@ router.put("/:id", verifyTokenAndAdmin, async (req, res) => {
 
 //DELETE
 
-router.delete("/:id",  verifyTokenAndAdmin, async (req, res) => {
+router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
   try{
     await Product.findByIdAndDelete(req.params.id)
     res.status(200).json("Produto foi deletado!")
@@ -42,16 +42,16 @@ router.delete("/:id",  verifyTokenAndAdmin, async (req, res) => {
 
 //GET PRODUCTS
 
-router.get("/find/:id", async  (req, res) => {
+router.get("/find/:id", async (req, res) => {
   try{
     const product = await Product.findById(req.params.id)
     res.status(200).json(product)
 
   }catch(err){
     res.status(500).json(err)}
-})
+});
 
-//GET ALL USERS
+//GET ALL PRODUCTS
 
 router.get("/", async (req, res) => {
   const qNew = req.query.new
