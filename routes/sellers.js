@@ -14,7 +14,7 @@ router.get("/", async (req, res) => {
     }
   };
 
-  axios(config)
+  await axios(config)
   .then(function (response) {
     res.status(200).json(response.data)
   }) 
