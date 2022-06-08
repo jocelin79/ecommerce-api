@@ -43,22 +43,13 @@ router.post('/login', async (req, res) => {
     OriginalPassword !== req.body.password &&
       res.status(401).json('Senha incorreta!')
 
-    const accessToken = jwt.sign(
-      {
-        id: user._id,
-        isAdmin: user.isAdmin
-      },
-      process.env.JWT_SEC,
-      {expiresIn:"3d"}
-    )
-
     // Não mostrar senha ao requerer as informações do usuário
 
     const { password, ...others } = user._doc
 
     //_doc é um diretorio do MongoDB
 
-    res.status(200).json({...others, accessToken})
+    res.status(200).json({...others})
     
   } catch (err) {
     res.status(500).json(err)
