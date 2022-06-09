@@ -18,7 +18,6 @@ mongoose
 app.use(cors())
 app.use(express.json())
 app.use('/api/auth', authRoute)
-app.use('/api/users', userRoute)
 app.use("/api/sellers", sellersRoute);
 
 app.listen(process.env.PORT || 5000, () => {
