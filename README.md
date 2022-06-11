@@ -29,5 +29,5 @@ Principais tecnologias utilizadas no projeto:
 
 ## 💬 Observações
  - Ainda não foi possível realizar o deploy da aqlicação, por isso o arquivo .env foi publicado para possibilitar o teste local.
- - Esta api foi desenvolvida, especialmente, em conjunto com um web site. Este aplicação web pode ser acesada através da seguinte 
+ - Esta api foi desenvolvida, especialmente, em conjunto com um web site. Este aplicação web pode ser acessada através da seguinte 
  url: https://github.com/jocelin79/ecommerce
