@@ -29,5 +29,6 @@ Principais tecnologias utilizadas no projeto:
 
 ## 💬 Observações
  - Ainda não foi possível realizar o deploy da aqlicação, por isso o arquivo .env foi publicado para possibilitar o teste local.
+ - A aplicação pode ser iniciada com comando "node index".
  - Esta api foi desenvolvida, especialmente, em conjunto com um web site. Esta aplicação web pode ser acessada através da seguinte 
  url: https://github.com/jocelin79/ecommerce
