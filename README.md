@@ -11,7 +11,7 @@ a api foi estruturada com base no padrão MVC.
 
 Principais funcionalidades da aplicação:
 - Rotas para o recebimento de requisisões no pardão rest;
-- Integração com api de produtos para acessar as unidades do carrefour por CEP e seu produtos;
+- Integração com api de produtos para acessar as unidades do carrefour por CEP e seus produtos;
 - Integração com um banco de dados do MongoDB para castro e login de usuários;
 - Encripitação da senha do usuário através do CryptoJS.
 
@@ -29,5 +29,5 @@ Principais tecnologias utilizadas no projeto:
 
 ## 💬 Observações
  - Ainda não foi possível realizar o deploy da aqlicação, por isso o arquivo .env foi publicado para possibilitar o teste local.
- - Esta api foi desenvolvida, especialmente, em conjunto com um web site. Este aplicação web pode ser acessada através da seguinte 
+ - Esta api foi desenvolvida, especialmente, em conjunto com um web site. Esta aplicação web pode ser acessada através da seguinte 
  url: https://github.com/jocelin79/ecommerce
