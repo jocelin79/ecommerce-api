@@ -3,7 +3,7 @@
 ## 💻 Projeto
 
 Esta aplicação é fruto do evento Carrefour Web Developer Tech Day, promovido pelo Carrefour e pela Digital Innovation One. Neste evento, foi requisitado o consumo de uma
-Api de produtos, disponibilizada pelo Carrefour. Dito isto, a Ecommer-api-TechDay é uma api rest criada para ser integrda à api do Carrefour, permitindo acessar os
+Api de produtos, disponibilizada pelo Carrefour. Dito isto, a Ecommer-api-TechDay é uma api rest criada para ser integrada à api do Carrefour, permitindo acessar os
 recursos desta api e obter uma modalagem alternativa do domínio. A tecnologia utilizada para a criação da api foi o Node.js, utilizando especialemnte o Express. Ademias,
 a api foi estruturada com base no padrão MVC.
 
